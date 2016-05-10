@@ -77,7 +77,8 @@
 	  React.createElement(
 	    Route,
 	    { path: "/", component: App },
-	    React.createElement(IndexRoute, { component: Index })
+	    React.createElement(IndexRoute, { component: Index }),
+	    React.createElement(Route, { path: "RadiusLocal", component: Index })
 	  )
 	);
 	
